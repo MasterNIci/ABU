@@ -66,6 +66,8 @@ sidenav {
   left: 5px;
   top: 0px;
   display: block;
+  overflow-y: scroll;
+  height: 100px;
 }
 
 div {
