@@ -67,6 +67,7 @@ sidenav {
   top: 0px;
   display: block;
   overflow-y: scroll;
+  width: 100px;
   height: 100px;
 }
 
@@ -81,6 +82,7 @@ p {
 }
 
 div.boxmain {
+  box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 10px #2196f3;
   float: left;
   width: auto;
   height: auto;
