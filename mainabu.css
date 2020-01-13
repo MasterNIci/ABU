@@ -40,7 +40,9 @@ h2{
   font-family: arial;
 }
 
-
+h3{
+  text-align: center;
+}
 
 a {
   font-family: arial;
@@ -71,6 +73,10 @@ sidenav {
   height: 100px;
 }
 
+sidenav-{
+
+}
+
 div {
   display: inline;
   font-family: arial;
@@ -94,12 +100,28 @@ div.boxmain {
   margin-bottom: 5px;
 }
 
-tr, td{
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td{
   border-collapse: collapse;
   border-color: white;
   border-style: solid;
-  border-width: 5px;
+  border-width: 1px;
+  padding: 5px;
 }
+
+tr{
+
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+}
+
+
+
 
 footer {
   position: fixed;
