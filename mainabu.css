@@ -18,6 +18,10 @@ body {
   display: inline;
 }
 
+.black{
+  color: black;
+}
+
 h1{
   text-align: center;
   color: white;
@@ -119,9 +123,25 @@ tr{
   border-style: solid;
   border-width: 1px;
 }
+.tonhalle{
+  position: inherit;
+  width:250px;
+  height:250px;
+  transform: translate(0%);
+}
+.primetower{
+  position: initial;
+  width: 937px;
+  height: 500px;
+  transform: translate(0%);
 
+}
 
-
+img{
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
 
 footer {
   position: fixed;
