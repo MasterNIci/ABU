@@ -23,7 +23,10 @@ body {
   font-weight: bold;
 }
 
-
+ul{
+  display:inline-flex;
+  padding-left: 0px;
+}
 
 h1{
   text-align: center;
@@ -38,6 +41,11 @@ h1{
   border-bottom: 5px;
   border-color: white;
   border-style: solid;
+}
+
+.datum{
+  right: 15px;
+  position: absolute;
 }
 
 h2{
@@ -61,6 +69,7 @@ a {
 li {
   padding: 5px;
   list-style: none;
+  font-family: arial;
 }
 
 nav {
