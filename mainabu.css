@@ -73,13 +73,10 @@ sidenav {
   top: 0px;
   display: block;
   overflow-y: scroll;
-  width: 100px;
+  width: 125px;
   height: 100px;
 }
 
-sidenav-{
-
-}
 
 div {
   display: inline;
